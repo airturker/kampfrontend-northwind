@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-root', //index.html de böyle tanımla
+  templateUrl: './app.component.html', //kimin componentisin
+  styleUrls: ['./app.component.css']  //still lerini tutar. bir dizidir.
 })
 export class AppComponent {
-  title = 'northwind';
+  title: string = 'northwind';
+  user: string = 'türker özakıncı';
+  
+
 }
